@@ -1,0 +1,59 @@
+body
+{
+	background-image:url("images.png");
+	background-size: cover;
+}
+
+	.loginDiv1 , .loginDiv2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#P1 , #P2
+{
+	display: inline-block;
+	/*margin-left: 5px;*/
+}
+
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#fancy_button {
+width:60%;	
+background-color:gray;
+}
+
+
+ #h1 {
+	 color: white;
+ }
+  
+ #N1 {
+   width: 800px;
+   display: inline-block;
+
+ }
+
+ #N2 {
+  width: 800px;
+  display: inline-block;
+ }
+
+ #body_ {
+	 background-color: tomato;
+ }

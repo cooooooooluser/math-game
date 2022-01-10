@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>The Math Quiz Game!</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="math.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="game.css">
+
+	<head>
+
+	<body id="body_">
+		<h4 id="player1Name"></h4> <span id="player1Score"></span>
+		<br>
+		<h4 id="player2Name"></h4> <span id="player2Score"></span>
+		<center>
+			<div class="container">
+				<h1> Math Game</h1>
+			</div>
+			<h3 id="QuestionTurn"> </h3>
+			<h3 id="AnswerTurn"> </h3>
+			<div id="output"> </div>
+
+			<span> <label class="btn btn-warning"> Number1 </label> <br> <input placeholder="Number1" id="N1" > </span>
+			<br> <br> <br>
+			<span> <label class="btn btn-warning"> Number2 </label> <br> <input placeholder="Number2" id="N2"> </span>
+			<br> <br>
+			<button id="send" onclick="sendA()"> Send </button>
+		</center>
+
+	</body>
+
+</html>
